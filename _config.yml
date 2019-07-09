@@ -3,3 +3,4 @@ name: Deepti Korwar, Technical Writer
 markdown: kramdown
 
 #url: https://deeptikorwar.com
+permalink: /blog/:year/:month/:day/:title #to include /blog in blog url
