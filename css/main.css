@@ -52,12 +52,12 @@ ul.posts li {
 .stwitter,
 .slinkedin,
 .sgithub {
-width: 26px;
-height: 27px
+background-size: 32px 32px;
 }
 
 .stwitter {
  background: url("../images/icons/Twitter.png") no-repeat;
+ background-size: 32px 32px;
 
 }
 /* End social media config*/
