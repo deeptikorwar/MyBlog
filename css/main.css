@@ -35,11 +35,29 @@ footer {
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
+ul.posts {
+    margin: 20px auto 40px;
     font-size: 1.5em;
 }
 
 ul.posts li {
     list-style: none;
 }
+
+/* Start social media config*/
+.mysocialMedia {
+    padding-bottom: 20px
+}
+
+.stwitter,
+.slinkedin,
+.sgithub {
+width: 26px;
+height: 27px
+}
+
+.stwitter {
+ background: url("../images/icons/Twitter.png") no-repeat;
+
+}
+/* End social media config*/
