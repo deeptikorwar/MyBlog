@@ -50,15 +50,27 @@ ul.posts li {
 }
 
 .stwitter,
-.slinkedin,
-.sgithub {
-    width: 32px;
-    height: 32px
+.sgithub,
+.slinkedin
+{
+float: left;
+padding-left: 5px;
+width: 32px;
+height: 32px
 }
 
-.stwitter {
- background: url("../images/icons/Twitter.png") no-repeat;
- background-size: 32px 32px
+.stwitter{
+    background: url("../images/icons/Twitter.png") no-repeat;
+    background-size: 32px 32px
+}
 
+.sgithub{
+    background: url("../images/icons/GitHub.png") no-repeat;
+    background-size: 32px 32px
+}
+
+.slinkedin{
+    background: url("../images/icons/LinkedIn.png") no-repeat;
+    background-size: 32px 32px
 }
 /* End social media config*/
