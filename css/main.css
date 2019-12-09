@@ -44,6 +44,13 @@ ul.posts li {
     list-style: none;
 }
 
+.inlinec {
+    padding: 2px 4px;
+    font-size: 90%;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+}
+
 /* Start social media config*/
 .mysocialMedia {
     padding-bottom: 20px
