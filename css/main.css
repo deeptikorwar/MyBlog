@@ -44,14 +44,32 @@ ul.posts li {
     list-style: none;
 }
 
+/* Start css for inline code */
 .inlinec {
     padding: 2px 4px;
     font-size: 90%;
     background-color: #f2f2f2;
     border-radius: 4px;
 }
+/* End css for inline code */
 
-/* Start social media config*/
+/* Start css for summary block */
+.summary::before {
+    content: "Summary: ";
+    font-weight: 600;
+    color: #000000
+}
+
+.summary {
+    padding: 4px 4px 4px 6px;
+    font-size: 110%;
+    color: #666666;
+    border-left: 4px solid #99d6ff;
+    margin: 20px 0
+}
+/* End css for summary block */
+
+/* Start social media config */
 .mysocialMedia {
     padding-bottom: 20px
 }
