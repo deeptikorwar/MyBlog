@@ -7,9 +7,8 @@ layout: default
   {{ page.date | date_to_string }}, writing for 
   <a href="/">Deepti Korwar</a></p>
 
-<div class="summary">{{ page.summary }}</div> 
-<p>Contents</p>
-* TOC
-{:toc}
+<div class="summary">{{ page.summary }}</div>
+
+{% include toc.html %}
 
 {{ content }}
