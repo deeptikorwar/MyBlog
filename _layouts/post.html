@@ -4,9 +4,12 @@ layout: default
 <h1>{{ page.title }}</h1>
 
 <p class="verysmallgray" style="margin-top:-30px">by {{ page.author }} on 
-  {{ page.date | date_to_string }}, writing for
-  <a href="/index.html">Deepti Korwar</a></p>
+  {{ page.date | date_to_string }}, writing for 
+  <a href="/">Deepti Korwar</a></p>
 
 <div class="summary">{{ page.summary }}</div> 
+<p>Contents</p>
+* TOC
+{:toc}
 
 {{ content }}
