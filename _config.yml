@@ -2,5 +2,8 @@
 name: Deepti Korwar, Technical Writer
 markdown: kramdown
 
+kramdown:
+  auto_ids: true
+
 #url: https://deeptikorwar.com
 permalink: /blog/:year/:month/:day/:title #to include /blog in blog url
