@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Deepti Korwar
 title: "Deepti Korwar, My test blog post"
 date: 2019-07-08
 summary: This is to test the summary block

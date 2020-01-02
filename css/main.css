@@ -76,6 +76,7 @@ ul.posts li {
     padding: 4px 4px 4px 6px;
     font-size: 110%;
     color: #666666;
+    border: 1px solid #eee;
     border-left: 4px solid #99d6ff;
     margin: 20px 0
 }
