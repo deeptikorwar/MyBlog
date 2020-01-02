@@ -4,6 +4,8 @@ author: Little Imp
 title: "Time travelling..."
 date: 2018-10-09
 summary: Contains just lorem ipsum dolor text for now
+categories:
+- short-story
 ---
 **Contents**
 * TOC
