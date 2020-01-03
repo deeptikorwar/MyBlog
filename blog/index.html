@@ -1,11 +1,8 @@
 ---
 layout: default
-title: Deepti Korwar’s Blog
+title: Post categories
 ---
 <h1>{{ page.title }}</h1>
-<p> Test line</p>
-	<ul class="posts">
-		{% for post in site.posts %}
-			<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-		{% endfor %}
-	</ul>
+<p><a class="smallblue" href="/category-technical-writing/">Technical writing</a></p>
+<p><a class="smallblue" href="/category-short-story/">Short story</a></p>
+<p><a class="smallblue" href="/category-recipe/">Recipe</a></p>
