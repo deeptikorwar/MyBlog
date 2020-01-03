@@ -10,6 +10,6 @@ title: Deepti Korwar, Technical Writer
 
 {% for post in site.posts %}
   <p><a class="blue" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></p>
-  <p class="verysmallgray" style="margin-top:-30px">{{ post.date | date_to_string }}</p>
-  <p class="smallgray" style="margin-top:-10px">{{ post.summary }}</p>
+  <p class="verysmallgray">{{ post.date | date_to_string }}</p>
+  <p class="smallgray">{{ post.summary }}</p>
 {% endfor %}
