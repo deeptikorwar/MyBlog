@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>{{ page.title }}</title>
 		<!-- link to web fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
@@ -17,16 +16,23 @@
 		<meta name="msapplication-TileColor" content="#da532c">
 		<meta name="theme-color" content="#ffffff">
 		<!-- end link to favicon -->
+		<title>{{ page.title }}</title>
+		<div class="blogtitle">
+  	<p class="btitle">Deepti Korwar</p>
+  	<p class="smallgray" style="margin-top:-30px">technical writing, recipes, and short stories</p>
+		</div>
 	</head>
 	<body>
-		<nav>
-			<ul>
-				<li><a href="/">Home</a></li>
-				<li><a href="/aboutme">About</a></li>
-				<li><a href="/blog">Categories</a></li>
-				<li><a href="/archives">Archives</a></li>
-			</ul>
-		</nav>
+		<div class="blognav">
+			<nav>
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="/aboutme">About</a></li>
+					<li><a href="/blog">Categories</a></li>
+					<li><a href="/archives">Archives</a></li>
+				</ul>
+			</nav>
+		</div>
 		<div class="container">
 
 			{{ content }}
