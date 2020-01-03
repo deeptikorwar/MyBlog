@@ -1,0 +1,13 @@
+---
+layout: archive
+title: "Recipes"
+permalink: /category-recipes/
+categoryName: recipes
+---
+
+<p>Posts from the <b>{{page.categoryName}}</b> category:
+
+    {% for p in site.categories.short-story %}
+<h4><a class="smallblue" href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="verysmallgray"> | {{ p.date | date_to_string }}</span>
+</h4>
+{% endfor %}

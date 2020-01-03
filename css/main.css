@@ -22,6 +22,12 @@ a {
 a.blue {
     color: #0000cc;
 }
+
+a.smallblue {
+    font-size: 1em;
+    color: #0000cc;
+}
+
 a:hover {
     text-decoration: underline;
 }
@@ -41,6 +47,10 @@ p.verysmallgray {
   color: #666666
 }
 
+.verysmallgray {
+  font-size: 0.8em;
+  color: #666666
+}
 p.smallgray {
   font-size: 1em;
   color: #666666

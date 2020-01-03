@@ -1,0 +1,15 @@
+---
+layout: archive
+title: "2020 archives"
+permalink: /posts-2020/
+year: 2020
+---
+
+<ol reversed="true">
+{% for p in site.posts %}
+{% capture year %}{{p.date | date: "%Y"}}{% endcapture %}
+{% if year == "2020" %}
+<li><h4><a class="smallblue" href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="verysmallgray"> | {{ p.date | date_to_string }}</span></li>
+{% endif %}
+{% endfor %}
+</ol>

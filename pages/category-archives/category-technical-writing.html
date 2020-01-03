@@ -1,0 +1,13 @@
+---
+layout: archive
+title: "Technical Writing"
+permalink: /category-technical-writing/
+categoryName: technical writing
+---
+
+<p>Posts from the <b>{{page.categoryName}}</b> category:
+
+    {% for p in site.categories.technical-writing %}
+<h4><a class="smallblue" href="{{ p.url | prepend: site.baseurl }}">{{p.title}}</a> <span class="verysmallgray"> | {{ p.date | date_to_string }}</span>
+</h4>
+{% endfor %}
