@@ -61,6 +61,11 @@ a.smallblue {
     color: #0000cc
 }
 
+a.verysmallblue {
+    font-size: 0.8em;
+    color: #0000cc
+}
+
 a:hover {
     text-decoration: underline
 }
@@ -82,6 +87,16 @@ p {
     color: #333
 }
 
+p.small {
+    font-size: 1em;
+    line-height: 0.8em
+}
+
+p.verysmall {
+    font-size: 0.8em;
+    line-height: 0em
+}
+
 p.verysmallgray {
     font-size: 0.8em;
     line-height: 0.5em;
@@ -95,7 +110,7 @@ p.verysmallgray {
 
 p.smallgray {
     font-size: 1em;
-    line-height: 0.5em;
+    line-height: 0.8em;
     color: #666666
 }
 
@@ -122,6 +137,7 @@ p.smallgray {
 
 .summary {
     padding: 4px 4px 4px 6px;
+    overflow: auto;
     font-size: 110%;
     color: #666666;
     border: 1px solid #eee;
