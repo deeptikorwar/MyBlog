@@ -53,17 +53,17 @@ a {
 }
 
 a.blue {
-    color: #0000cc;
+    color: #006699;
 }
 
 a.smallblue {
     font-size: 1em;
-    color: #0000cc
+    color: #006699
 }
 
 a.verysmallblue {
     font-size: 0.8em;
-    color: #0000cc
+    color: #006699
 }
 
 a:hover {
@@ -87,8 +87,7 @@ p {
     color: #333
 }
 
-p.small {
-    font-size: 1em;
+p.lowheight {
     line-height: 0.8em
 }
 
@@ -100,23 +99,23 @@ p.verysmall {
 p.verysmallgray {
     font-size: 0.8em;
     line-height: 0.5em;
-    color: #666666
+    color: #404040
 }
 
 .verysmallgray {
   font-size: 0.8em;
-  color: #666666
+  color: #404040
 }
 
 p.smallgray {
     font-size: 1em;
     line-height: 0.8em;
-    color: #666666
+    color: #404040
 }
 
 .smallgray {
   font-size: 1em;
-  color: #666666
+  color: #404040
 }
 
 /* Start css for inline code */
@@ -139,7 +138,7 @@ p.smallgray {
     padding: 4px 4px 4px 6px;
     overflow: auto;
     font-size: 110%;
-    color: #666666;
+    color: #404040;
     border: 1px solid #eee;
     border-left: 4px solid #99d6ff;
     margin: 20px 0

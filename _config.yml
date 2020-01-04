@@ -7,3 +7,8 @@ kramdown:
 
 #url: https://deeptikorwar.com
 permalink: /blog/:year/:month/:day/:title #to include /blog in blog url
+
+paginate: 5
+
+plugins:
+  - jekyll-paginate
