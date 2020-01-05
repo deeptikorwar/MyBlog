@@ -37,6 +37,8 @@ p.btitle {
 
 .pagination {
     background-color: #f2f2f2;
+    display: inline-block;
+    padding: 10px
 }
 /* End css for nav block */
 
@@ -92,7 +94,7 @@ p {
 }
 
 p.lowheight {
-    line-height: 0.8em
+    line-height: 0em!important
 }
 
 p.verysmall {
@@ -179,3 +181,59 @@ height: 32px
     background-size: 32px 32px
 }
 /* End social media config*/
+
+/* Start recipe config */
+/*.ingredientsh {
+    padding: 4px 4px 4px 4px;
+    border: 1px solid #a0e4e4;
+    background-color: #d6f5f5;
+    margin: 20px 0
+}
+
+.ingredientsb {
+    padding: 4px 4px 4px 4px;
+    border: 1px solid #a0e4e4;
+    margin: 20px 0
+}*/
+
+.ingredientsh {
+    padding-left: 5px;
+    border: 1px solid #a0e4e4;
+    border-bottom: 1px solid transparent;
+    line-height: 1.5px;
+    background-color: #d6f5f5
+}
+
+.ingredientsb {
+    padding-left: 5px;
+    border: 1px solid #a0e4e4;
+    border-top: 1px solid transparent
+}
+
+/*.recmethodh {
+    padding: 4px 4px 4px 4px;
+    border: 1px solid #df9b9c;
+    background-color: #f5d6d6;
+    margin: 20px 0
+}
+
+.recmethodb {
+    padding: 4px 4px 4px 4px;
+    border: 1px solid #df9b9c;
+    margin: 20px 0
+}*/
+
+.recmethodh {
+    padding-left: 5px;
+    border: 1px solid #df9b9c;
+    border-bottom: 1px solid transparent;
+    line-height: 1.5px;
+    background-color: #f5d6d6
+}
+
+.recmethodb {
+    padding-left: 5px;
+    border: 1px solid #df9b9c;
+    border-top: 1px solid transparent
+}
+/* End recipe config*/
