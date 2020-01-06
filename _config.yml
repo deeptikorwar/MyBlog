@@ -12,3 +12,19 @@ paginate: 5
 
 plugins:
   - jekyll-paginate
+  - jekyll-seo-tag
+
+# jekyll-seo-tag plugin setup 
+title: Deepti Korwar
+tagline: blog with recipes, short stories and information for technical writers.
+description: blog with recipes, short stories and information for technical writers. 
+# url: revisit this later
+author: Deepti Korwar
+logo: https://deeptikorwar.github.io/images/icons/favicon-32x32.png
+# google_site_verification: revisit this later
+social:
+  name: Deepti Korwar
+  links:
+    - https://twitter.com/DeeptiKorwar
+    - https://www.linkedin.com/in/deepti-korwar-06247016
+    - https://github.com/deeptikorwar

@@ -3,10 +3,11 @@ layout: post
 author: Deepti Korwar
 title: "My first draft recipe"
 date: 2019-07-10
-summary: Nothing much here, a test recipe
+description: Nothing much here, a test recipe
 categories:
 - recipe
 ---
+<!-- image: url of image /images/icons/abcd.jpg Add to front matter for seo--> 
 **Contents**
 * TOC
 {:toc}
