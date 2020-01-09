@@ -11,3 +11,7 @@ categories:
 Yipee! Finally trying out my first blog post on GitHub pages, all thanks to this [awesome post](http://jmcglone.com/guides/github-pages/).
 
 <p>test <code class="inlinec">git</code> test</p>
+
+<div class="alert alert-primary" role="alert">
+  A simple primary alert—check it out!
+</div>

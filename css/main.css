@@ -213,3 +213,24 @@ height: 32px
     border-top: 1px solid transparent
 }
 /* End recipe config*/
+
+/* Start img class */
+img.photo {
+border-radius: 8px;
+}
+
+img.round {
+border-radius: 50%;
+}
+
+img.middle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*width: 50%;*/
+}
+
+img.screenshot {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* End img class*/
