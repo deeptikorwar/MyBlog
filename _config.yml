@@ -14,6 +14,9 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
 
+#Google codes
+google_ad_client: ca-pub-2001196324705173 #to turn off ads, remove this value
+
 # jekyll-seo-tag plugin setup 
 title: Deepti Korwar
 tagline: blog with recipes, short stories and information for technical writers.

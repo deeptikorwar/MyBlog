@@ -19,10 +19,11 @@
 		<meta name="theme-color" content="#ffffff">
 		<!-- end link to favicon -->
 		{% seo %}
+		{% if site.google_ad_client %}{% include google_adsense.html %}{% endif %} 
 		<title>{{ page.title }}</title>
 		<div class="blogtitle">
   	<p class="btitle">Deepti Korwar</p>
-  	<p class="smallgray lowheight">technical writing, recipes, and short stories</p>
+  	<p class="smallgray">technical writing, recipes, and short stories</p>
 		</div>
 	</head>
 	<body>
