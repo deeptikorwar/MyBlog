@@ -1,4 +1,3 @@
-
 ---
 layout: none
 ---
@@ -7,38 +6,38 @@ layout: none
   {% for page in site.pages %}
     {% unless page.sitemap == "false" %}
   <url>
-      <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
-      {% if page.last_modified_at %}
-        <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
-      {% elsif page.date %}
-        <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
-      {% else %}
-        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-      {% endif %}
-      {% if page.sitemap.changefreq %}
-        <changefreq>{{ page.sitemap.changefreq }}</changefreq>
-      {% else %}
-        <changefreq>monthly</changefreq>
-      {% endif %}
-      {% if page.sitemap.priority %}
-        <priority>{{ page.sitemap.priority }}</priority>
-      {% else %}
-        <priority>0.3</priority>
-      {% endif %}
+    <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
+    {% if page.last_modified_at %}
+    <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
+    {% elsif page.date %}
+    <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
+    {% else %}
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    {% endif %}
+    {% if page.sitemap.changefreq %}
+    <changefreq>{{ page.sitemap.changefreq }}</changefreq>
+    {% else %}
+    <changefreq>monthly</changefreq>
+    {% endif %}
+    {% if page.sitemap.priority %}
+    <priority>{{ page.sitemap.priority }}</priority>
+    {% else %}
+    <priority>0.3</priority>
+    {% endif %}
   </url>
     {% endunless %}
   {% endfor %}
 
   {% for post in site.posts %}
   <url>
-      <loc>{{ site.url }}{{ post.url }}</loc>
-      {% if post.last_modified_at %}
-        <lastmod>{{ post.last_modified_at | date_to_xmlschema }}</lastmod>
-      {% elsif post.date %}
-        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-      {% else %}
-        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-      {% endif %}
+    <loc>{{ site.url }}{{ post.url }}</loc>
+    {% if post.last_modified_at %}
+    <lastmod>{{ post.last_modified_at | date_to_xmlschema }}</lastmod>
+    {% elsif post.date %}
+    <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+    {% else %}
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    {% endif %}
   </url>
   {% endfor %}
 </urlset>
