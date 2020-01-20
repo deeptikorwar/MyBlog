@@ -15,7 +15,8 @@ plugins:
   - jekyll-seo-tag
 
 #Google codes
-google_ad_client: ca-pub-2001196324705173 #to turn off ads, remove this value
+#disable google ad for now
+#google_ad_client: ca-pub-2001196324705173 #to turn off ads, remove this value
 google-site-verification: DlXiTZYZcFMcf0CtXpDgQqx6mh_ID0evFiUcl8KZFkk
 
 # jekyll-seo-tag plugin setup 

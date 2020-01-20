@@ -123,6 +123,10 @@ p.smallgray {
   color: #404040
 }
 
+.lightgray {
+color: #999
+}
+
 /* Start css for inline code */
 .inlinec {
     padding: 2px 4px;
