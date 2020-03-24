@@ -59,17 +59,17 @@ a {
 }
 
 a.blue {
-    color: #005580;
+    color: #3594BA;
 }
 
 a.smallblue {
     font-size: 1em;
-    color: #005580
+    color: #3594BA
 }
 
 a.verysmallblue {
     font-size: 0.8em;
-    color: #005580
+    color: #3594BA
 }
 
 a:hover {
