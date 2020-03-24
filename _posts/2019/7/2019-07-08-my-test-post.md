@@ -6,6 +6,7 @@ date: 2019-07-08
 description: This is to test the summary block
 categories:
 - technical-writing
+- short-story
 ---
 
 Yipee! Finally trying out my first blog post on GitHub pages, all thanks to this [awesome post](http://jmcglone.com/guides/github-pages/).
