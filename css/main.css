@@ -4,15 +4,21 @@ body {
     font-family: 'Montserrat', 'Sans-Serif'
 }
 
+header {
+    background-color: #e6ffff;
+    padding: 10px;
+}
+
 footer {
     border-top: 1px solid #d5d5d5;
-    /*background-color: #f2f2f2;*/
-    font-size: .8em
+    background-color: #e6ffff;
+    font-size: .8em;
+    padding: 5px
 }
 
 .container {
     margin: 30px auto;
-    width: 70%
+    width: 70%;
 }
 
 p.btitle {
@@ -28,10 +34,15 @@ p.btitle {
     width: 90%;
 }
 
+.blogfooter {
+    margin: 40px auto 20px auto;
+    width: 90%;
+}
+
 .blognav {
-    padding-top: 0.5px;
+    /*padding-top: 0.5px;
     padding-bottom: 0.5px;
-    background-color: #f2f2f2;
+    background-color: #f2f2f2;*/
 }
 
 .pagination {

@@ -6,10 +6,6 @@
 		{% include google_verification.html %}
 		{% if site.google_ad_client %}{% include google_adsense.html %}{% endif %} 
 		<title>{{ page.title }}</title>
-		<div class="blogtitle">
-  	<p class="btitle">Deepti Korwar</p>
-  	<p class="smallgray">technical writing, recipes, and short stories</p>
-		</div>
 		<!-- link to web fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
@@ -32,37 +28,14 @@
 		{% seo %}
 	</head>
 	<body>
-		<div class="blognav">
-			<nav>
-			<div class="blogtitle">
-				<ul>
-					<li><a class="blognav" href="/">Home</a></li>
-					<li><a class="blognav" href="/aboutme">About</a></li>
-					<li><a class="blognav" href="/blog">Categories</a></li>
-					<li><a class="blognav" href="/archives">Archives</a></li>
-					<li><a class="blognav" href="/search">Search</a></li>
-				</ul>
-			</div>
-			</nav>
-		</div>
+		{% include header.html %}
 		<div class="container">
-			<div class="alert alert-danger" role="alert">
-  			This site is currently under construction and <strong>not ready</strong> for use.
-			</div>
+		{% include constalert.html %}
 
 			{{ content }}
 
 		</div><!-- /.container -->
-		<footer>
-		<div class="blogtitle">
-			<ul>
-        <!--
-				<li><a href="mailto:kdeepti2013@gmail.com">contact me</a></li>
-        -->
-				<li><span class="lightgray">&#169; 2020 Deepti Korwar. All rights reserved.</span></li>
-			</ul>
-		</div>
-		</footer>
+    {% include footer.html %}
 		<!-- Bootstrap JS -->
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
